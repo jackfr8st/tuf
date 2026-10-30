@@ -1,0 +1,5816 @@
+[
+ {
+  "id": 5001,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "5.68",
+  "currency_code": "USD",
+  "date": "2026-05-04T19:00:00Z",
+  "created_at": "2026-05-04T19:00:00Z",
+  "updated_at": "2026-05-04T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.68",
+    "owed_share": "5.68",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5002,
+  "group_id": null,
+  "description": "Waymo downtown",
+  "payment": false,
+  "cost": "10.79",
+  "currency_code": "USD",
+  "date": "2026-05-04T19:00:00Z",
+  "created_at": "2026-05-04T19:00:00Z",
+  "updated_at": "2026-05-04T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "10.79",
+    "owed_share": "10.79",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5003,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "5.77",
+  "currency_code": "USD",
+  "date": "2026-05-06T19:00:00Z",
+  "created_at": "2026-05-06T19:00:00Z",
+  "updated_at": "2026-05-06T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.77",
+    "owed_share": "5.77",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5004,
+  "group_id": 101,
+  "description": "Internet bill",
+  "payment": false,
+  "cost": "70.00",
+  "currency_code": "USD",
+  "date": "2026-05-06T19:00:00Z",
+  "created_at": "2026-05-06T19:00:00Z",
+  "updated_at": "2026-05-06T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "TV/Phone/Internet"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "70.00",
+    "owed_share": "35.00",
+    "net_balance": "35.00"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "35.00",
+    "net_balance": "-35.00"
+   }
+  ]
+ },
+ {
+  "id": 5005,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "4.64",
+  "currency_code": "USD",
+  "date": "2026-05-08T19:00:00Z",
+  "created_at": "2026-05-08T19:00:00Z",
+  "updated_at": "2026-05-08T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.64",
+    "owed_share": "4.64",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5006,
+  "group_id": 301,
+  "description": "Ramen Nakamura",
+  "payment": false,
+  "cost": "59.54",
+  "currency_code": "USD",
+  "date": "2026-05-09T19:00:00Z",
+  "created_at": "2026-05-09T19:00:00Z",
+  "updated_at": "2026-05-09T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "19.84",
+    "net_balance": "-19.84"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "19.85",
+    "net_balance": "-19.85"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "59.54",
+    "owed_share": "19.85",
+    "net_balance": "39.69"
+   }
+  ]
+ },
+ {
+  "id": 5007,
+  "group_id": 101,
+  "description": "Trader Joe's",
+  "payment": false,
+  "cost": "103.81",
+  "currency_code": "USD",
+  "date": "2026-05-10T19:00:00Z",
+  "created_at": "2026-05-10T19:00:00Z",
+  "updated_at": "2026-05-10T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "103.81",
+    "owed_share": "51.91",
+    "net_balance": "51.90"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "51.90",
+    "net_balance": "-51.90"
+   }
+  ]
+ },
+ {
+  "id": 5008,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "5.58",
+  "currency_code": "USD",
+  "date": "2026-05-11T19:00:00Z",
+  "created_at": "2026-05-11T19:00:00Z",
+  "updated_at": "2026-05-11T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.58",
+    "owed_share": "5.58",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5009,
+  "group_id": null,
+  "description": "Lyft home",
+  "payment": false,
+  "cost": "18.98",
+  "currency_code": "USD",
+  "date": "2026-05-12T19:00:00Z",
+  "created_at": "2026-05-12T19:00:00Z",
+  "updated_at": "2026-05-12T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "18.98",
+    "owed_share": "18.98",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5010,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "4.85",
+  "currency_code": "USD",
+  "date": "2026-05-13T19:00:00Z",
+  "created_at": "2026-05-13T19:00:00Z",
+  "updated_at": "2026-05-13T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.85",
+    "owed_share": "4.85",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5011,
+  "group_id": null,
+  "description": "Chips and salsa",
+  "payment": false,
+  "cost": "7.59",
+  "currency_code": "USD",
+  "date": "2026-05-14T19:00:00Z",
+  "created_at": "2026-05-14T19:00:00Z",
+  "updated_at": "2026-05-14T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "7.59",
+    "owed_share": "7.59",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5012,
+  "group_id": 301,
+  "description": "Taco night",
+  "payment": false,
+  "cost": "114.57",
+  "currency_code": "USD",
+  "date": "2026-05-15T19:00:00Z",
+  "created_at": "2026-05-15T19:00:00Z",
+  "updated_at": "2026-05-15T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "38.19",
+    "net_balance": "-38.19"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "38.19",
+    "net_balance": "-38.19"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "114.57",
+    "owed_share": "38.19",
+    "net_balance": "76.38"
+   }
+  ]
+ },
+ {
+  "id": 5013,
+  "group_id": 301,
+  "description": "Dinner at Lucia's Trattoria",
+  "payment": false,
+  "cost": "54.79",
+  "currency_code": "USD",
+  "date": "2026-05-16T19:00:00Z",
+  "created_at": "2026-05-16T19:00:00Z",
+  "updated_at": "2026-05-16T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "18.27",
+    "net_balance": "-18.27"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "18.26",
+    "net_balance": "-18.26"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "54.79",
+    "owed_share": "18.26",
+    "net_balance": "36.53"
+   }
+  ]
+ },
+ {
+  "id": 5014,
+  "group_id": 101,
+  "description": "Costco",
+  "payment": false,
+  "cost": "113.08",
+  "currency_code": "USD",
+  "date": "2026-05-17T19:00:00Z",
+  "created_at": "2026-05-17T19:00:00Z",
+  "updated_at": "2026-05-17T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "56.54",
+    "net_balance": "-56.54"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "113.08",
+    "owed_share": "56.54",
+    "net_balance": "56.54"
+   }
+  ]
+ },
+ {
+  "id": 5015,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "4.85",
+  "currency_code": "USD",
+  "date": "2026-05-18T19:00:00Z",
+  "created_at": "2026-05-18T19:00:00Z",
+  "updated_at": "2026-05-18T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.85",
+    "owed_share": "4.85",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5016,
+  "group_id": null,
+  "description": "Lyft home",
+  "payment": false,
+  "cost": "11.46",
+  "currency_code": "USD",
+  "date": "2026-05-18T19:00:00Z",
+  "created_at": "2026-05-18T19:00:00Z",
+  "updated_at": "2026-05-18T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "11.46",
+    "owed_share": "11.46",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5017,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "6.96",
+  "currency_code": "USD",
+  "date": "2026-05-20T19:00:00Z",
+  "created_at": "2026-05-20T19:00:00Z",
+  "updated_at": "2026-05-20T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.96",
+    "owed_share": "6.96",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5018,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "4.95",
+  "currency_code": "USD",
+  "date": "2026-05-22T19:00:00Z",
+  "created_at": "2026-05-22T19:00:00Z",
+  "updated_at": "2026-05-22T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.95",
+    "owed_share": "4.95",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5019,
+  "group_id": 301,
+  "description": "Dinner at Lucia's Trattoria",
+  "payment": false,
+  "cost": "102.32",
+  "currency_code": "USD",
+  "date": "2026-05-22T19:00:00Z",
+  "created_at": "2026-05-22T19:00:00Z",
+  "updated_at": "2026-05-22T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "34.10",
+    "net_balance": "-34.10"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "34.11",
+    "net_balance": "-34.11"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "102.32",
+    "owed_share": "34.11",
+    "net_balance": "68.21"
+   }
+  ]
+ },
+ {
+  "id": 5020,
+  "group_id": 301,
+  "description": "Sushi Hana",
+  "payment": false,
+  "cost": "111.43",
+  "currency_code": "USD",
+  "date": "2026-05-23T19:00:00Z",
+  "created_at": "2026-05-23T19:00:00Z",
+  "updated_at": "2026-05-23T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "111.43",
+    "owed_share": "37.15",
+    "net_balance": "74.28"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "37.14",
+    "net_balance": "-37.14"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "37.14",
+    "net_balance": "-37.14"
+   }
+  ]
+ },
+ {
+  "id": 5021,
+  "group_id": 101,
+  "description": "Trader Joe's",
+  "payment": false,
+  "cost": "130.46",
+  "currency_code": "USD",
+  "date": "2026-05-24T19:00:00Z",
+  "created_at": "2026-05-24T19:00:00Z",
+  "updated_at": "2026-05-24T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "65.23",
+    "net_balance": "-65.23"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "130.46",
+    "owed_share": "65.23",
+    "net_balance": "65.23"
+   }
+  ]
+ },
+ {
+  "id": 5022,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "5.68",
+  "currency_code": "USD",
+  "date": "2026-05-25T19:00:00Z",
+  "created_at": "2026-05-25T19:00:00Z",
+  "updated_at": "2026-05-25T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.68",
+    "owed_share": "5.68",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5023,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "4.50",
+  "currency_code": "USD",
+  "date": "2026-05-27T19:00:00Z",
+  "created_at": "2026-05-27T19:00:00Z",
+  "updated_at": "2026-05-27T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.50",
+    "owed_share": "4.50",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5024,
+  "group_id": null,
+  "description": "Uber to campus",
+  "payment": false,
+  "cost": "27.03",
+  "currency_code": "USD",
+  "date": "2026-05-27T19:00:00Z",
+  "created_at": "2026-05-27T19:00:00Z",
+  "updated_at": "2026-05-27T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "27.03",
+    "owed_share": "27.03",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5025,
+  "group_id": null,
+  "description": "Payment",
+  "payment": true,
+  "cost": "136.44",
+  "currency_code": "USD",
+  "date": "2026-05-28T19:00:00Z",
+  "created_at": "2026-05-28T19:00:00Z",
+  "updated_at": "2026-05-28T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "136.44",
+    "net_balance": "-136.44"
+   },
+   {
+    "user_id": 1,
+    "paid_share": "136.44",
+    "owed_share": "0.00",
+    "net_balance": "136.44"
+   }
+  ]
+ },
+ {
+  "id": 5026,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "4.87",
+  "currency_code": "USD",
+  "date": "2026-05-29T19:00:00Z",
+  "created_at": "2026-05-29T19:00:00Z",
+  "updated_at": "2026-05-29T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.87",
+    "owed_share": "4.87",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5027,
+  "group_id": 301,
+  "description": "Dinner at Lucia's Trattoria",
+  "payment": false,
+  "cost": "131.96",
+  "currency_code": "USD",
+  "date": "2026-05-30T19:00:00Z",
+  "created_at": "2026-05-30T19:00:00Z",
+  "updated_at": "2026-05-30T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "43.98",
+    "net_balance": "-43.98"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "43.99",
+    "net_balance": "-43.99"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "131.96",
+    "owed_share": "43.99",
+    "net_balance": "87.97"
+   }
+  ]
+ },
+ {
+  "id": 5028,
+  "group_id": 101,
+  "description": "Trader Joe's",
+  "payment": false,
+  "cost": "135.34",
+  "currency_code": "USD",
+  "date": "2026-05-31T19:00:00Z",
+  "created_at": "2026-05-31T19:00:00Z",
+  "updated_at": "2026-05-31T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "135.34",
+    "owed_share": "67.67",
+    "net_balance": "67.67"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "67.67",
+    "net_balance": "-67.67"
+   }
+  ]
+ },
+ {
+  "id": 5029,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "5.39",
+  "currency_code": "USD",
+  "date": "2026-06-01T19:00:00Z",
+  "created_at": "2026-06-01T19:00:00Z",
+  "updated_at": "2026-06-01T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.39",
+    "owed_share": "5.39",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5030,
+  "group_id": 101,
+  "description": "Rent",
+  "payment": false,
+  "cost": "1450.00",
+  "currency_code": "USD",
+  "date": "2026-06-01T19:00:00Z",
+  "created_at": "2026-06-01T19:00:00Z",
+  "updated_at": "2026-06-01T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "Rent"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "725.00",
+    "net_balance": "-725.00"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "1450.00",
+    "owed_share": "725.00",
+    "net_balance": "725.00"
+   }
+  ]
+ },
+ {
+  "id": 5031,
+  "group_id": null,
+  "description": "Health insurance",
+  "payment": false,
+  "cost": "118.00",
+  "currency_code": "USD",
+  "date": "2026-06-01T19:00:00Z",
+  "created_at": "2026-06-01T19:00:00Z",
+  "updated_at": "2026-06-01T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "118.00",
+    "owed_share": "118.00",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5032,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "6.84",
+  "currency_code": "USD",
+  "date": "2026-06-03T19:00:00Z",
+  "created_at": "2026-06-03T19:00:00Z",
+  "updated_at": "2026-06-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.84",
+    "owed_share": "6.84",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5033,
+  "group_id": 101,
+  "description": "Netflix",
+  "payment": false,
+  "cost": "15.49",
+  "currency_code": "USD",
+  "date": "2026-06-03T19:00:00Z",
+  "created_at": "2026-06-03T19:00:00Z",
+  "updated_at": "2026-06-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "15.49",
+    "owed_share": "7.75",
+    "net_balance": "7.74"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "7.74",
+    "net_balance": "-7.74"
+   }
+  ]
+ },
+ {
+  "id": 5034,
+  "group_id": null,
+  "description": "Spotify",
+  "payment": false,
+  "cost": "11.99",
+  "currency_code": "USD",
+  "date": "2026-06-03T19:00:00Z",
+  "created_at": "2026-06-03T19:00:00Z",
+  "updated_at": "2026-06-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "11.99",
+    "owed_share": "11.99",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5035,
+  "group_id": 301,
+  "description": "Dinner at Lucia's Trattoria",
+  "payment": false,
+  "cost": "136.49",
+  "currency_code": "USD",
+  "date": "2026-06-06T19:00:00Z",
+  "created_at": "2026-06-06T19:00:00Z",
+  "updated_at": "2026-06-06T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "45.49",
+    "net_balance": "-45.49"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "136.49",
+    "owed_share": "45.50",
+    "net_balance": "90.99"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "45.50",
+    "net_balance": "-45.50"
+   }
+  ]
+ },
+ {
+  "id": 5036,
+  "group_id": 101,
+  "description": "Internet bill",
+  "payment": false,
+  "cost": "70.00",
+  "currency_code": "USD",
+  "date": "2026-06-06T19:00:00Z",
+  "created_at": "2026-06-06T19:00:00Z",
+  "updated_at": "2026-06-06T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "TV/Phone/Internet"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "70.00",
+    "owed_share": "35.00",
+    "net_balance": "35.00"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "35.00",
+    "net_balance": "-35.00"
+   }
+  ]
+ },
+ {
+  "id": 5037,
+  "group_id": 101,
+  "description": "Costco",
+  "payment": false,
+  "cost": "135.73",
+  "currency_code": "USD",
+  "date": "2026-06-07T19:00:00Z",
+  "created_at": "2026-06-07T19:00:00Z",
+  "updated_at": "2026-06-07T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "67.87",
+    "net_balance": "-67.87"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "135.73",
+    "owed_share": "67.86",
+    "net_balance": "67.87"
+   }
+  ]
+ },
+ {
+  "id": 5038,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "5.95",
+  "currency_code": "USD",
+  "date": "2026-06-08T19:00:00Z",
+  "created_at": "2026-06-08T19:00:00Z",
+  "updated_at": "2026-06-08T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.95",
+    "owed_share": "5.95",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5039,
+  "group_id": null,
+  "description": "Phone case",
+  "payment": false,
+  "cost": "42.36",
+  "currency_code": "USD",
+  "date": "2026-06-08T19:00:00Z",
+  "created_at": "2026-06-08T19:00:00Z",
+  "updated_at": "2026-06-08T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "42.36",
+    "owed_share": "42.36",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5040,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "6.75",
+  "currency_code": "USD",
+  "date": "2026-06-10T19:00:00Z",
+  "created_at": "2026-06-10T19:00:00Z",
+  "updated_at": "2026-06-10T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.75",
+    "owed_share": "6.75",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5041,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "6.73",
+  "currency_code": "USD",
+  "date": "2026-06-12T19:00:00Z",
+  "created_at": "2026-06-12T19:00:00Z",
+  "updated_at": "2026-06-12T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.73",
+    "owed_share": "6.73",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5042,
+  "group_id": 301,
+  "description": "Ramen Nakamura",
+  "payment": false,
+  "cost": "67.04",
+  "currency_code": "USD",
+  "date": "2026-06-12T19:00:00Z",
+  "created_at": "2026-06-12T19:00:00Z",
+  "updated_at": "2026-06-12T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "67.04",
+    "owed_share": "22.34",
+    "net_balance": "44.70"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "22.35",
+    "net_balance": "-22.35"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "22.35",
+    "net_balance": "-22.35"
+   }
+  ]
+ },
+ {
+  "id": 5043,
+  "group_id": null,
+  "description": "Waymo downtown",
+  "payment": false,
+  "cost": "26.19",
+  "currency_code": "USD",
+  "date": "2026-06-12T19:00:00Z",
+  "created_at": "2026-06-12T19:00:00Z",
+  "updated_at": "2026-06-12T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "26.19",
+    "owed_share": "26.19",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5044,
+  "group_id": 101,
+  "description": "Ralphs groceries",
+  "payment": false,
+  "cost": "46.35",
+  "currency_code": "USD",
+  "date": "2026-06-14T19:00:00Z",
+  "created_at": "2026-06-14T19:00:00Z",
+  "updated_at": "2026-06-14T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "46.35",
+    "owed_share": "23.17",
+    "net_balance": "23.18"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "23.18",
+    "net_balance": "-23.18"
+   }
+  ]
+ },
+ {
+  "id": 5045,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "5.48",
+  "currency_code": "USD",
+  "date": "2026-06-17T19:00:00Z",
+  "created_at": "2026-06-17T19:00:00Z",
+  "updated_at": "2026-06-17T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.48",
+    "owed_share": "5.48",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5046,
+  "group_id": 301,
+  "description": "Sushi Hana",
+  "payment": false,
+  "cost": "62.65",
+  "currency_code": "USD",
+  "date": "2026-06-19T19:00:00Z",
+  "created_at": "2026-06-19T19:00:00Z",
+  "updated_at": "2026-06-19T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "62.65",
+    "owed_share": "20.89",
+    "net_balance": "41.76"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "20.88",
+    "net_balance": "-20.88"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "20.88",
+    "net_balance": "-20.88"
+   }
+  ]
+ },
+ {
+  "id": 5047,
+  "group_id": null,
+  "description": "Snacks from 7-Eleven",
+  "payment": false,
+  "cost": "7.66",
+  "currency_code": "USD",
+  "date": "2026-06-19T19:00:00Z",
+  "created_at": "2026-06-19T19:00:00Z",
+  "updated_at": "2026-06-19T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "7.66",
+    "owed_share": "7.66",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5048,
+  "group_id": null,
+  "description": "Uber to campus",
+  "payment": false,
+  "cost": "18.00",
+  "currency_code": "USD",
+  "date": "2026-06-20T19:00:00Z",
+  "created_at": "2026-06-20T19:00:00Z",
+  "updated_at": "2026-06-20T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "18.00",
+    "owed_share": "18.00",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5049,
+  "group_id": 101,
+  "description": "Target run",
+  "payment": false,
+  "cost": "119.51",
+  "currency_code": "USD",
+  "date": "2026-06-21T19:00:00Z",
+  "created_at": "2026-06-21T19:00:00Z",
+  "updated_at": "2026-06-21T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "59.75",
+    "net_balance": "-59.75"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "119.51",
+    "owed_share": "59.76",
+    "net_balance": "59.75"
+   }
+  ]
+ },
+ {
+  "id": 5050,
+  "group_id": null,
+  "description": "Waymo downtown",
+  "payment": false,
+  "cost": "10.08",
+  "currency_code": "USD",
+  "date": "2026-06-21T19:00:00Z",
+  "created_at": "2026-06-21T19:00:00Z",
+  "updated_at": "2026-06-21T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "10.08",
+    "owed_share": "10.08",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5051,
+  "group_id": null,
+  "description": "Uniqlo jacket",
+  "payment": false,
+  "cost": "53.00",
+  "currency_code": "USD",
+  "date": "2026-06-21T19:00:00Z",
+  "created_at": "2026-06-21T19:00:00Z",
+  "updated_at": "2026-06-21T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "53.00",
+    "owed_share": "53.00",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5052,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "5.83",
+  "currency_code": "USD",
+  "date": "2026-06-22T19:00:00Z",
+  "created_at": "2026-06-22T19:00:00Z",
+  "updated_at": "2026-06-22T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.83",
+    "owed_share": "5.83",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5053,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "6.60",
+  "currency_code": "USD",
+  "date": "2026-06-24T19:00:00Z",
+  "created_at": "2026-06-24T19:00:00Z",
+  "updated_at": "2026-06-24T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.60",
+    "owed_share": "6.60",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5054,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "5.68",
+  "currency_code": "USD",
+  "date": "2026-06-26T19:00:00Z",
+  "created_at": "2026-06-26T19:00:00Z",
+  "updated_at": "2026-06-26T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.68",
+    "owed_share": "5.68",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5055,
+  "group_id": 301,
+  "description": "Ramen Nakamura",
+  "payment": false,
+  "cost": "95.97",
+  "currency_code": "USD",
+  "date": "2026-06-26T19:00:00Z",
+  "created_at": "2026-06-26T19:00:00Z",
+  "updated_at": "2026-06-26T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "95.97",
+    "owed_share": "31.99",
+    "net_balance": "63.98"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "31.99",
+    "net_balance": "-31.99"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "31.99",
+    "net_balance": "-31.99"
+   }
+  ]
+ },
+ {
+  "id": 5056,
+  "group_id": 301,
+  "description": "Taco night",
+  "payment": false,
+  "cost": "64.01",
+  "currency_code": "USD",
+  "date": "2026-06-27T19:00:00Z",
+  "created_at": "2026-06-27T19:00:00Z",
+  "updated_at": "2026-06-27T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "64.01",
+    "owed_share": "21.33",
+    "net_balance": "42.68"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "21.34",
+    "net_balance": "-21.34"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "21.34",
+    "net_balance": "-21.34"
+   }
+  ]
+ },
+ {
+  "id": 5057,
+  "group_id": 101,
+  "description": "Costco",
+  "payment": false,
+  "cost": "60.47",
+  "currency_code": "USD",
+  "date": "2026-06-28T19:00:00Z",
+  "created_at": "2026-06-28T19:00:00Z",
+  "updated_at": "2026-06-28T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "30.23",
+    "net_balance": "-30.23"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "60.47",
+    "owed_share": "30.24",
+    "net_balance": "30.23"
+   }
+  ]
+ },
+ {
+  "id": 5058,
+  "group_id": null,
+  "description": "Payment",
+  "payment": true,
+  "cost": "139.53",
+  "currency_code": "USD",
+  "date": "2026-06-28T19:00:00Z",
+  "created_at": "2026-06-28T19:00:00Z",
+  "updated_at": "2026-06-28T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "139.53",
+    "net_balance": "-139.53"
+   },
+   {
+    "user_id": 1,
+    "paid_share": "139.53",
+    "owed_share": "0.00",
+    "net_balance": "139.53"
+   }
+  ]
+ },
+ {
+  "id": 5059,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "5.09",
+  "currency_code": "USD",
+  "date": "2026-06-29T19:00:00Z",
+  "created_at": "2026-06-29T19:00:00Z",
+  "updated_at": "2026-06-29T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.09",
+    "owed_share": "5.09",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5060,
+  "group_id": null,
+  "description": "Phone case",
+  "payment": false,
+  "cost": "49.81",
+  "currency_code": "USD",
+  "date": "2026-06-29T19:00:00Z",
+  "created_at": "2026-06-29T19:00:00Z",
+  "updated_at": "2026-06-29T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "49.81",
+    "owed_share": "49.81",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5061,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "4.84",
+  "currency_code": "USD",
+  "date": "2026-07-01T19:00:00Z",
+  "created_at": "2026-07-01T19:00:00Z",
+  "updated_at": "2026-07-01T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.84",
+    "owed_share": "4.84",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5062,
+  "group_id": 101,
+  "description": "Rent",
+  "payment": false,
+  "cost": "1450.00",
+  "currency_code": "USD",
+  "date": "2026-07-01T19:00:00Z",
+  "created_at": "2026-07-01T19:00:00Z",
+  "updated_at": "2026-07-01T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "Rent"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "725.00",
+    "net_balance": "-725.00"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "1450.00",
+    "owed_share": "725.00",
+    "net_balance": "725.00"
+   }
+  ]
+ },
+ {
+  "id": 5063,
+  "group_id": null,
+  "description": "Health insurance",
+  "payment": false,
+  "cost": "118.00",
+  "currency_code": "USD",
+  "date": "2026-07-01T19:00:00Z",
+  "created_at": "2026-07-01T19:00:00Z",
+  "updated_at": "2026-07-01T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "118.00",
+    "owed_share": "118.00",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5064,
+  "group_id": null,
+  "description": "Lyft home",
+  "payment": false,
+  "cost": "9.75",
+  "currency_code": "USD",
+  "date": "2026-07-02T19:00:00Z",
+  "created_at": "2026-07-02T19:00:00Z",
+  "updated_at": "2026-07-02T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "9.75",
+    "owed_share": "9.75",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5065,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "7.05",
+  "currency_code": "USD",
+  "date": "2026-07-03T19:00:00Z",
+  "created_at": "2026-07-03T19:00:00Z",
+  "updated_at": "2026-07-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "7.05",
+    "owed_share": "7.05",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5066,
+  "group_id": 301,
+  "description": "Taco night",
+  "payment": false,
+  "cost": "93.47",
+  "currency_code": "USD",
+  "date": "2026-07-03T19:00:00Z",
+  "created_at": "2026-07-03T19:00:00Z",
+  "updated_at": "2026-07-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "31.15",
+    "net_balance": "-31.15"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "31.16",
+    "net_balance": "-31.16"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "93.47",
+    "owed_share": "31.16",
+    "net_balance": "62.31"
+   }
+  ]
+ },
+ {
+  "id": 5067,
+  "group_id": 101,
+  "description": "Netflix",
+  "payment": false,
+  "cost": "15.49",
+  "currency_code": "USD",
+  "date": "2026-07-03T19:00:00Z",
+  "created_at": "2026-07-03T19:00:00Z",
+  "updated_at": "2026-07-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "15.49",
+    "owed_share": "7.75",
+    "net_balance": "7.74"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "7.74",
+    "net_balance": "-7.74"
+   }
+  ]
+ },
+ {
+  "id": 5068,
+  "group_id": null,
+  "description": "Spotify",
+  "payment": false,
+  "cost": "11.99",
+  "currency_code": "USD",
+  "date": "2026-07-03T19:00:00Z",
+  "created_at": "2026-07-03T19:00:00Z",
+  "updated_at": "2026-07-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "11.99",
+    "owed_share": "11.99",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5069,
+  "group_id": 301,
+  "description": "Dinner at Lucia's Trattoria",
+  "payment": false,
+  "cost": "137.55",
+  "currency_code": "USD",
+  "date": "2026-07-04T19:00:00Z",
+  "created_at": "2026-07-04T19:00:00Z",
+  "updated_at": "2026-07-04T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "137.55",
+    "owed_share": "45.85",
+    "net_balance": "91.70"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "45.85",
+    "net_balance": "-45.85"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "45.85",
+    "net_balance": "-45.85"
+   }
+  ]
+ },
+ {
+  "id": 5070,
+  "group_id": 101,
+  "description": "Trader Joe's",
+  "payment": false,
+  "cost": "52.96",
+  "currency_code": "USD",
+  "date": "2026-07-05T19:00:00Z",
+  "created_at": "2026-07-05T19:00:00Z",
+  "updated_at": "2026-07-05T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "26.48",
+    "net_balance": "-26.48"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "52.96",
+    "owed_share": "26.48",
+    "net_balance": "26.48"
+   }
+  ]
+ },
+ {
+  "id": 5071,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "7.48",
+  "currency_code": "USD",
+  "date": "2026-07-06T19:00:00Z",
+  "created_at": "2026-07-06T19:00:00Z",
+  "updated_at": "2026-07-06T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "7.48",
+    "owed_share": "7.48",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5072,
+  "group_id": 101,
+  "description": "Internet bill",
+  "payment": false,
+  "cost": "70.00",
+  "currency_code": "USD",
+  "date": "2026-07-06T19:00:00Z",
+  "created_at": "2026-07-06T19:00:00Z",
+  "updated_at": "2026-07-06T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "TV/Phone/Internet"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "70.00",
+    "owed_share": "35.00",
+    "net_balance": "35.00"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "35.00",
+    "net_balance": "-35.00"
+   }
+  ]
+ },
+ {
+  "id": 5073,
+  "group_id": null,
+  "description": "Waymo downtown",
+  "payment": false,
+  "cost": "13.53",
+  "currency_code": "USD",
+  "date": "2026-07-07T19:00:00Z",
+  "created_at": "2026-07-07T19:00:00Z",
+  "updated_at": "2026-07-07T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "13.53",
+    "owed_share": "13.53",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5074,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "7.30",
+  "currency_code": "USD",
+  "date": "2026-07-08T19:00:00Z",
+  "created_at": "2026-07-08T19:00:00Z",
+  "updated_at": "2026-07-08T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "7.30",
+    "owed_share": "7.30",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5075,
+  "group_id": null,
+  "description": "Uber to campus",
+  "payment": false,
+  "cost": "22.93",
+  "currency_code": "USD",
+  "date": "2026-07-10T19:00:00Z",
+  "created_at": "2026-07-10T19:00:00Z",
+  "updated_at": "2026-07-10T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "22.93",
+    "owed_share": "22.93",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5076,
+  "group_id": 301,
+  "description": "Brunch at Sunny Side",
+  "payment": false,
+  "cost": "59.90",
+  "currency_code": "USD",
+  "date": "2026-07-11T19:00:00Z",
+  "created_at": "2026-07-11T19:00:00Z",
+  "updated_at": "2026-07-11T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "19.96",
+    "net_balance": "-19.96"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "19.97",
+    "net_balance": "-19.97"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "59.90",
+    "owed_share": "19.97",
+    "net_balance": "39.93"
+   }
+  ]
+ },
+ {
+  "id": 5077,
+  "group_id": 101,
+  "description": "Costco",
+  "payment": false,
+  "cost": "110.34",
+  "currency_code": "USD",
+  "date": "2026-07-12T19:00:00Z",
+  "created_at": "2026-07-12T19:00:00Z",
+  "updated_at": "2026-07-12T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "55.17",
+    "net_balance": "-55.17"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "110.34",
+    "owed_share": "55.17",
+    "net_balance": "55.17"
+   }
+  ]
+ },
+ {
+  "id": 5078,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "4.92",
+  "currency_code": "USD",
+  "date": "2026-07-13T19:00:00Z",
+  "created_at": "2026-07-13T19:00:00Z",
+  "updated_at": "2026-07-13T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.92",
+    "owed_share": "4.92",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5079,
+  "group_id": null,
+  "description": "Waymo downtown",
+  "payment": false,
+  "cost": "23.08",
+  "currency_code": "USD",
+  "date": "2026-07-14T19:00:00Z",
+  "created_at": "2026-07-14T19:00:00Z",
+  "updated_at": "2026-07-14T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "23.08",
+    "owed_share": "23.08",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5080,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "7.11",
+  "currency_code": "USD",
+  "date": "2026-07-15T19:00:00Z",
+  "created_at": "2026-07-15T19:00:00Z",
+  "updated_at": "2026-07-15T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "7.11",
+    "owed_share": "7.11",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5081,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "5.59",
+  "currency_code": "USD",
+  "date": "2026-07-17T19:00:00Z",
+  "created_at": "2026-07-17T19:00:00Z",
+  "updated_at": "2026-07-17T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.59",
+    "owed_share": "5.59",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5082,
+  "group_id": 301,
+  "description": "Sushi Hana",
+  "payment": false,
+  "cost": "84.24",
+  "currency_code": "USD",
+  "date": "2026-07-17T19:00:00Z",
+  "created_at": "2026-07-17T19:00:00Z",
+  "updated_at": "2026-07-17T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "84.24",
+    "owed_share": "28.08",
+    "net_balance": "56.16"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "28.08",
+    "net_balance": "-28.08"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "28.08",
+    "net_balance": "-28.08"
+   }
+  ]
+ },
+ {
+  "id": 5083,
+  "group_id": 301,
+  "description": "Brunch at Sunny Side",
+  "payment": false,
+  "cost": "57.40",
+  "currency_code": "USD",
+  "date": "2026-07-18T19:00:00Z",
+  "created_at": "2026-07-18T19:00:00Z",
+  "updated_at": "2026-07-18T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "19.14",
+    "net_balance": "-19.14"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "57.40",
+    "owed_share": "19.13",
+    "net_balance": "38.27"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "19.13",
+    "net_balance": "-19.13"
+   }
+  ]
+ },
+ {
+  "id": 5084,
+  "group_id": 101,
+  "description": "Trader Joe's",
+  "payment": false,
+  "cost": "70.10",
+  "currency_code": "USD",
+  "date": "2026-07-19T19:00:00Z",
+  "created_at": "2026-07-19T19:00:00Z",
+  "updated_at": "2026-07-19T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "70.10",
+    "owed_share": "35.05",
+    "net_balance": "35.05"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "35.05",
+    "net_balance": "-35.05"
+   }
+  ]
+ },
+ {
+  "id": 5085,
+  "group_id": null,
+  "description": "Lyft home",
+  "payment": false,
+  "cost": "20.15",
+  "currency_code": "USD",
+  "date": "2026-07-19T19:00:00Z",
+  "created_at": "2026-07-19T19:00:00Z",
+  "updated_at": "2026-07-19T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "20.15",
+    "owed_share": "20.15",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5086,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "6.26",
+  "currency_code": "USD",
+  "date": "2026-07-20T19:00:00Z",
+  "created_at": "2026-07-20T19:00:00Z",
+  "updated_at": "2026-07-20T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.26",
+    "owed_share": "6.26",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5087,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "4.95",
+  "currency_code": "USD",
+  "date": "2026-07-22T19:00:00Z",
+  "created_at": "2026-07-22T19:00:00Z",
+  "updated_at": "2026-07-22T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.95",
+    "owed_share": "4.95",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5088,
+  "group_id": null,
+  "description": "Phone case",
+  "payment": false,
+  "cost": "77.98",
+  "currency_code": "USD",
+  "date": "2026-07-22T19:00:00Z",
+  "created_at": "2026-07-22T19:00:00Z",
+  "updated_at": "2026-07-22T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "77.98",
+    "owed_share": "77.98",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5089,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "6.76",
+  "currency_code": "USD",
+  "date": "2026-07-24T19:00:00Z",
+  "created_at": "2026-07-24T19:00:00Z",
+  "updated_at": "2026-07-24T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.76",
+    "owed_share": "6.76",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5090,
+  "group_id": 301,
+  "description": "Dinner at Lucia's Trattoria",
+  "payment": false,
+  "cost": "140.56",
+  "currency_code": "USD",
+  "date": "2026-07-24T19:00:00Z",
+  "created_at": "2026-07-24T19:00:00Z",
+  "updated_at": "2026-07-24T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "46.86",
+    "net_balance": "-46.86"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "46.85",
+    "net_balance": "-46.85"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "140.56",
+    "owed_share": "46.85",
+    "net_balance": "93.71"
+   }
+  ]
+ },
+ {
+  "id": 5091,
+  "group_id": 301,
+  "description": "Dinner at Lucia's Trattoria",
+  "payment": false,
+  "cost": "51.49",
+  "currency_code": "USD",
+  "date": "2026-07-25T19:00:00Z",
+  "created_at": "2026-07-25T19:00:00Z",
+  "updated_at": "2026-07-25T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "51.49",
+    "owed_share": "17.17",
+    "net_balance": "34.32"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "17.16",
+    "net_balance": "-17.16"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "17.16",
+    "net_balance": "-17.16"
+   }
+  ]
+ },
+ {
+  "id": 5092,
+  "group_id": 101,
+  "description": "Costco",
+  "payment": false,
+  "cost": "104.64",
+  "currency_code": "USD",
+  "date": "2026-07-26T19:00:00Z",
+  "created_at": "2026-07-26T19:00:00Z",
+  "updated_at": "2026-07-26T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "104.64",
+    "owed_share": "52.32",
+    "net_balance": "52.32"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "52.32",
+    "net_balance": "-52.32"
+   }
+  ]
+ },
+ {
+  "id": 5093,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "6.74",
+  "currency_code": "USD",
+  "date": "2026-07-27T19:00:00Z",
+  "created_at": "2026-07-27T19:00:00Z",
+  "updated_at": "2026-07-27T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.74",
+    "owed_share": "6.74",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5094,
+  "group_id": null,
+  "description": "Waymo downtown",
+  "payment": false,
+  "cost": "18.00",
+  "currency_code": "USD",
+  "date": "2026-07-28T19:00:00Z",
+  "created_at": "2026-07-28T19:00:00Z",
+  "updated_at": "2026-07-28T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "18.00",
+    "owed_share": "18.00",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5095,
+  "group_id": null,
+  "description": "Payment",
+  "payment": true,
+  "cost": "78.78",
+  "currency_code": "USD",
+  "date": "2026-07-28T19:00:00Z",
+  "created_at": "2026-07-28T19:00:00Z",
+  "updated_at": "2026-07-28T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "78.78",
+    "net_balance": "-78.78"
+   },
+   {
+    "user_id": 1,
+    "paid_share": "78.78",
+    "owed_share": "0.00",
+    "net_balance": "78.78"
+   }
+  ]
+ },
+ {
+  "id": 5096,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "6.72",
+  "currency_code": "USD",
+  "date": "2026-07-29T19:00:00Z",
+  "created_at": "2026-07-29T19:00:00Z",
+  "updated_at": "2026-07-29T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.72",
+    "owed_share": "6.72",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5097,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "5.09",
+  "currency_code": "USD",
+  "date": "2026-07-31T19:00:00Z",
+  "created_at": "2026-07-31T19:00:00Z",
+  "updated_at": "2026-07-31T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.09",
+    "owed_share": "5.09",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5098,
+  "group_id": 301,
+  "description": "Taco night",
+  "payment": false,
+  "cost": "76.44",
+  "currency_code": "USD",
+  "date": "2026-07-31T19:00:00Z",
+  "created_at": "2026-07-31T19:00:00Z",
+  "updated_at": "2026-07-31T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "25.48",
+    "net_balance": "-25.48"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "25.48",
+    "net_balance": "-25.48"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "76.44",
+    "owed_share": "25.48",
+    "net_balance": "50.96"
+   }
+  ]
+ },
+ {
+  "id": 5099,
+  "group_id": 301,
+  "description": "Brunch at Sunny Side",
+  "payment": false,
+  "cost": "78.10",
+  "currency_code": "USD",
+  "date": "2026-08-01T19:00:00Z",
+  "created_at": "2026-08-01T19:00:00Z",
+  "updated_at": "2026-08-01T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "26.04",
+    "net_balance": "-26.04"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "26.03",
+    "net_balance": "-26.03"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "78.10",
+    "owed_share": "26.03",
+    "net_balance": "52.07"
+   }
+  ]
+ },
+ {
+  "id": 5100,
+  "group_id": null,
+  "description": "Uber to campus",
+  "payment": false,
+  "cost": "21.84",
+  "currency_code": "USD",
+  "date": "2026-08-01T19:00:00Z",
+  "created_at": "2026-08-01T19:00:00Z",
+  "updated_at": "2026-08-01T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "21.84",
+    "owed_share": "21.84",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5101,
+  "group_id": 101,
+  "description": "Rent",
+  "payment": false,
+  "cost": "1450.00",
+  "currency_code": "USD",
+  "date": "2026-08-01T19:00:00Z",
+  "created_at": "2026-08-01T19:00:00Z",
+  "updated_at": "2026-08-01T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "Rent"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "725.00",
+    "net_balance": "-725.00"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "1450.00",
+    "owed_share": "725.00",
+    "net_balance": "725.00"
+   }
+  ]
+ },
+ {
+  "id": 5102,
+  "group_id": null,
+  "description": "Health insurance",
+  "payment": false,
+  "cost": "118.00",
+  "currency_code": "USD",
+  "date": "2026-08-01T19:00:00Z",
+  "created_at": "2026-08-01T19:00:00Z",
+  "updated_at": "2026-08-01T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "118.00",
+    "owed_share": "118.00",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5103,
+  "group_id": 101,
+  "description": "Costco",
+  "payment": false,
+  "cost": "89.30",
+  "currency_code": "USD",
+  "date": "2026-08-02T19:00:00Z",
+  "created_at": "2026-08-02T19:00:00Z",
+  "updated_at": "2026-08-02T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "44.65",
+    "net_balance": "-44.65"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "89.30",
+    "owed_share": "44.65",
+    "net_balance": "44.65"
+   }
+  ]
+ },
+ {
+  "id": 5104,
+  "group_id": null,
+  "description": "Waymo downtown",
+  "payment": false,
+  "cost": "12.79",
+  "currency_code": "USD",
+  "date": "2026-08-02T19:00:00Z",
+  "created_at": "2026-08-02T19:00:00Z",
+  "updated_at": "2026-08-02T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "12.79",
+    "owed_share": "12.79",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5105,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "4.73",
+  "currency_code": "USD",
+  "date": "2026-08-03T19:00:00Z",
+  "created_at": "2026-08-03T19:00:00Z",
+  "updated_at": "2026-08-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.73",
+    "owed_share": "4.73",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5106,
+  "group_id": 101,
+  "description": "Netflix",
+  "payment": false,
+  "cost": "15.49",
+  "currency_code": "USD",
+  "date": "2026-08-03T19:00:00Z",
+  "created_at": "2026-08-03T19:00:00Z",
+  "updated_at": "2026-08-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "15.49",
+    "owed_share": "7.75",
+    "net_balance": "7.74"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "7.74",
+    "net_balance": "-7.74"
+   }
+  ]
+ },
+ {
+  "id": 5107,
+  "group_id": null,
+  "description": "Spotify",
+  "payment": false,
+  "cost": "11.99",
+  "currency_code": "USD",
+  "date": "2026-08-03T19:00:00Z",
+  "created_at": "2026-08-03T19:00:00Z",
+  "updated_at": "2026-08-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "11.99",
+    "owed_share": "11.99",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5108,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "4.93",
+  "currency_code": "USD",
+  "date": "2026-08-05T19:00:00Z",
+  "created_at": "2026-08-05T19:00:00Z",
+  "updated_at": "2026-08-05T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.93",
+    "owed_share": "4.93",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5109,
+  "group_id": 101,
+  "description": "Internet bill",
+  "payment": false,
+  "cost": "70.00",
+  "currency_code": "USD",
+  "date": "2026-08-06T19:00:00Z",
+  "created_at": "2026-08-06T19:00:00Z",
+  "updated_at": "2026-08-06T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "TV/Phone/Internet"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "70.00",
+    "owed_share": "35.00",
+    "net_balance": "35.00"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "35.00",
+    "net_balance": "-35.00"
+   }
+  ]
+ },
+ {
+  "id": 5110,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "5.99",
+  "currency_code": "USD",
+  "date": "2026-08-07T19:00:00Z",
+  "created_at": "2026-08-07T19:00:00Z",
+  "updated_at": "2026-08-07T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.99",
+    "owed_share": "5.99",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5111,
+  "group_id": 301,
+  "description": "Brunch at Sunny Side",
+  "payment": false,
+  "cost": "81.82",
+  "currency_code": "USD",
+  "date": "2026-08-08T19:00:00Z",
+  "created_at": "2026-08-08T19:00:00Z",
+  "updated_at": "2026-08-08T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "81.82",
+    "owed_share": "27.28",
+    "net_balance": "54.54"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "27.27",
+    "net_balance": "-27.27"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "27.27",
+    "net_balance": "-27.27"
+   }
+  ]
+ },
+ {
+  "id": 5112,
+  "group_id": 101,
+  "description": "Target run",
+  "payment": false,
+  "cost": "75.83",
+  "currency_code": "USD",
+  "date": "2026-08-09T19:00:00Z",
+  "created_at": "2026-08-09T19:00:00Z",
+  "updated_at": "2026-08-09T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "75.83",
+    "owed_share": "37.91",
+    "net_balance": "37.92"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "37.92",
+    "net_balance": "-37.92"
+   }
+  ]
+ },
+ {
+  "id": 5113,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "7.20",
+  "currency_code": "USD",
+  "date": "2026-08-10T19:00:00Z",
+  "created_at": "2026-08-10T19:00:00Z",
+  "updated_at": "2026-08-10T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "7.20",
+    "owed_share": "7.20",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5114,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "7.06",
+  "currency_code": "USD",
+  "date": "2026-08-12T19:00:00Z",
+  "created_at": "2026-08-12T19:00:00Z",
+  "updated_at": "2026-08-12T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "7.06",
+    "owed_share": "7.06",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5115,
+  "group_id": null,
+  "description": "Snacks from 7-Eleven",
+  "payment": false,
+  "cost": "6.81",
+  "currency_code": "USD",
+  "date": "2026-08-12T19:00:00Z",
+  "created_at": "2026-08-12T19:00:00Z",
+  "updated_at": "2026-08-12T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.81",
+    "owed_share": "6.81",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5116,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "7.15",
+  "currency_code": "USD",
+  "date": "2026-08-14T19:00:00Z",
+  "created_at": "2026-08-14T19:00:00Z",
+  "updated_at": "2026-08-14T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "7.15",
+    "owed_share": "7.15",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5117,
+  "group_id": 301,
+  "description": "Dinner at Lucia's Trattoria",
+  "payment": false,
+  "cost": "53.54",
+  "currency_code": "USD",
+  "date": "2026-08-15T19:00:00Z",
+  "created_at": "2026-08-15T19:00:00Z",
+  "updated_at": "2026-08-15T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "17.84",
+    "net_balance": "-17.84"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "17.85",
+    "net_balance": "-17.85"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "53.54",
+    "owed_share": "17.85",
+    "net_balance": "35.69"
+   }
+  ]
+ },
+ {
+  "id": 5118,
+  "group_id": 101,
+  "description": "Target run",
+  "payment": false,
+  "cost": "49.65",
+  "currency_code": "USD",
+  "date": "2026-08-16T19:00:00Z",
+  "created_at": "2026-08-16T19:00:00Z",
+  "updated_at": "2026-08-16T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "24.83",
+    "net_balance": "-24.83"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "49.65",
+    "owed_share": "24.82",
+    "net_balance": "24.83"
+   }
+  ]
+ },
+ {
+  "id": 5119,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "5.27",
+  "currency_code": "USD",
+  "date": "2026-08-17T19:00:00Z",
+  "created_at": "2026-08-17T19:00:00Z",
+  "updated_at": "2026-08-17T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.27",
+    "owed_share": "5.27",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5120,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "4.98",
+  "currency_code": "USD",
+  "date": "2026-08-19T19:00:00Z",
+  "created_at": "2026-08-19T19:00:00Z",
+  "updated_at": "2026-08-19T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.98",
+    "owed_share": "4.98",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5121,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "6.14",
+  "currency_code": "USD",
+  "date": "2026-08-21T19:00:00Z",
+  "created_at": "2026-08-21T19:00:00Z",
+  "updated_at": "2026-08-21T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.14",
+    "owed_share": "6.14",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5122,
+  "group_id": 301,
+  "description": "Ramen Nakamura",
+  "payment": false,
+  "cost": "86.30",
+  "currency_code": "USD",
+  "date": "2026-08-21T19:00:00Z",
+  "created_at": "2026-08-21T19:00:00Z",
+  "updated_at": "2026-08-21T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "86.30",
+    "owed_share": "28.76",
+    "net_balance": "57.54"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "28.77",
+    "net_balance": "-28.77"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "28.77",
+    "net_balance": "-28.77"
+   }
+  ]
+ },
+ {
+  "id": 5123,
+  "group_id": 301,
+  "description": "Dinner at Lucia's Trattoria",
+  "payment": false,
+  "cost": "131.96",
+  "currency_code": "USD",
+  "date": "2026-08-22T19:00:00Z",
+  "created_at": "2026-08-22T19:00:00Z",
+  "updated_at": "2026-08-22T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "43.98",
+    "net_balance": "-43.98"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "131.96",
+    "owed_share": "43.99",
+    "net_balance": "87.97"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "43.99",
+    "net_balance": "-43.99"
+   }
+  ]
+ },
+ {
+  "id": 5124,
+  "group_id": 101,
+  "description": "Target run",
+  "payment": false,
+  "cost": "116.45",
+  "currency_code": "USD",
+  "date": "2026-08-23T19:00:00Z",
+  "created_at": "2026-08-23T19:00:00Z",
+  "updated_at": "2026-08-23T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "58.23",
+    "net_balance": "-58.23"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "116.45",
+    "owed_share": "58.22",
+    "net_balance": "58.23"
+   }
+  ]
+ },
+ {
+  "id": 5125,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "6.39",
+  "currency_code": "USD",
+  "date": "2026-08-24T19:00:00Z",
+  "created_at": "2026-08-24T19:00:00Z",
+  "updated_at": "2026-08-24T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.39",
+    "owed_share": "6.39",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5126,
+  "group_id": null,
+  "description": "Uniqlo jacket",
+  "payment": false,
+  "cost": "47.64",
+  "currency_code": "USD",
+  "date": "2026-08-26T19:00:00Z",
+  "created_at": "2026-08-26T19:00:00Z",
+  "updated_at": "2026-08-26T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "47.64",
+    "owed_share": "47.64",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5127,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "5.67",
+  "currency_code": "USD",
+  "date": "2026-08-28T19:00:00Z",
+  "created_at": "2026-08-28T19:00:00Z",
+  "updated_at": "2026-08-28T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.67",
+    "owed_share": "5.67",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5128,
+  "group_id": null,
+  "description": "Payment",
+  "payment": true,
+  "cost": "79.88",
+  "currency_code": "USD",
+  "date": "2026-08-28T19:00:00Z",
+  "created_at": "2026-08-28T19:00:00Z",
+  "updated_at": "2026-08-28T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "79.88",
+    "net_balance": "-79.88"
+   },
+   {
+    "user_id": 1,
+    "paid_share": "79.88",
+    "owed_share": "0.00",
+    "net_balance": "79.88"
+   }
+  ]
+ },
+ {
+  "id": 5129,
+  "group_id": 301,
+  "description": "Ramen Nakamura",
+  "payment": false,
+  "cost": "65.03",
+  "currency_code": "USD",
+  "date": "2026-08-29T19:00:00Z",
+  "created_at": "2026-08-29T19:00:00Z",
+  "updated_at": "2026-08-29T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "21.67",
+    "net_balance": "-21.67"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "21.68",
+    "net_balance": "-21.68"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "65.03",
+    "owed_share": "21.68",
+    "net_balance": "43.35"
+   }
+  ]
+ },
+ {
+  "id": 5130,
+  "group_id": null,
+  "description": "Waymo downtown",
+  "payment": false,
+  "cost": "22.32",
+  "currency_code": "USD",
+  "date": "2026-08-29T19:00:00Z",
+  "created_at": "2026-08-29T19:00:00Z",
+  "updated_at": "2026-08-29T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "22.32",
+    "owed_share": "22.32",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5131,
+  "group_id": 101,
+  "description": "Trader Joe's",
+  "payment": false,
+  "cost": "45.13",
+  "currency_code": "USD",
+  "date": "2026-08-30T19:00:00Z",
+  "created_at": "2026-08-30T19:00:00Z",
+  "updated_at": "2026-08-30T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "45.13",
+    "owed_share": "22.57",
+    "net_balance": "22.56"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "22.56",
+    "net_balance": "-22.56"
+   }
+  ]
+ },
+ {
+  "id": 5132,
+  "group_id": null,
+  "description": "Waymo downtown",
+  "payment": false,
+  "cost": "26.48",
+  "currency_code": "USD",
+  "date": "2026-08-30T19:00:00Z",
+  "created_at": "2026-08-30T19:00:00Z",
+  "updated_at": "2026-08-30T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "26.48",
+    "owed_share": "26.48",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5133,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "6.08",
+  "currency_code": "USD",
+  "date": "2026-08-31T19:00:00Z",
+  "created_at": "2026-08-31T19:00:00Z",
+  "updated_at": "2026-08-31T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.08",
+    "owed_share": "6.08",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5134,
+  "group_id": 101,
+  "description": "Rent",
+  "payment": false,
+  "cost": "1450.00",
+  "currency_code": "USD",
+  "date": "2026-09-01T19:00:00Z",
+  "created_at": "2026-09-01T19:00:00Z",
+  "updated_at": "2026-09-01T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "Rent"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "725.00",
+    "net_balance": "-725.00"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "1450.00",
+    "owed_share": "725.00",
+    "net_balance": "725.00"
+   }
+  ]
+ },
+ {
+  "id": 5135,
+  "group_id": null,
+  "description": "Health insurance",
+  "payment": false,
+  "cost": "118.00",
+  "currency_code": "USD",
+  "date": "2026-09-01T19:00:00Z",
+  "created_at": "2026-09-01T19:00:00Z",
+  "updated_at": "2026-09-01T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "118.00",
+    "owed_share": "118.00",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5136,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "4.50",
+  "currency_code": "USD",
+  "date": "2026-09-02T19:00:00Z",
+  "created_at": "2026-09-02T19:00:00Z",
+  "updated_at": "2026-09-02T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.50",
+    "owed_share": "4.50",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5137,
+  "group_id": 101,
+  "description": "Netflix",
+  "payment": false,
+  "cost": "15.49",
+  "currency_code": "USD",
+  "date": "2026-09-03T19:00:00Z",
+  "created_at": "2026-09-03T19:00:00Z",
+  "updated_at": "2026-09-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "15.49",
+    "owed_share": "7.75",
+    "net_balance": "7.74"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "7.74",
+    "net_balance": "-7.74"
+   }
+  ]
+ },
+ {
+  "id": 5138,
+  "group_id": null,
+  "description": "Spotify",
+  "payment": false,
+  "cost": "11.99",
+  "currency_code": "USD",
+  "date": "2026-09-03T19:00:00Z",
+  "created_at": "2026-09-03T19:00:00Z",
+  "updated_at": "2026-09-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "11.99",
+    "owed_share": "11.99",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5139,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "5.24",
+  "currency_code": "USD",
+  "date": "2026-09-04T19:00:00Z",
+  "created_at": "2026-09-04T19:00:00Z",
+  "updated_at": "2026-09-04T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.24",
+    "owed_share": "5.24",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5140,
+  "group_id": null,
+  "description": "Running shoes",
+  "payment": false,
+  "cost": "77.52",
+  "currency_code": "USD",
+  "date": "2026-09-04T19:00:00Z",
+  "created_at": "2026-09-04T19:00:00Z",
+  "updated_at": "2026-09-04T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "77.52",
+    "owed_share": "77.52",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5141,
+  "group_id": 301,
+  "description": "Dinner at Lucia's Trattoria",
+  "payment": false,
+  "cost": "76.81",
+  "currency_code": "USD",
+  "date": "2026-09-05T19:00:00Z",
+  "created_at": "2026-09-05T19:00:00Z",
+  "updated_at": "2026-09-05T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "25.61",
+    "net_balance": "-25.61"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "25.60",
+    "net_balance": "-25.60"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "76.81",
+    "owed_share": "25.60",
+    "net_balance": "51.21"
+   }
+  ]
+ },
+ {
+  "id": 5142,
+  "group_id": 101,
+  "description": "Target run",
+  "payment": false,
+  "cost": "79.42",
+  "currency_code": "USD",
+  "date": "2026-09-06T19:00:00Z",
+  "created_at": "2026-09-06T19:00:00Z",
+  "updated_at": "2026-09-06T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "39.71",
+    "net_balance": "-39.71"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "79.42",
+    "owed_share": "39.71",
+    "net_balance": "39.71"
+   }
+  ]
+ },
+ {
+  "id": 5143,
+  "group_id": null,
+  "description": "Snacks from 7-Eleven",
+  "payment": false,
+  "cost": "7.43",
+  "currency_code": "USD",
+  "date": "2026-09-06T19:00:00Z",
+  "created_at": "2026-09-06T19:00:00Z",
+  "updated_at": "2026-09-06T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "7.43",
+    "owed_share": "7.43",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5144,
+  "group_id": 101,
+  "description": "Internet bill",
+  "payment": false,
+  "cost": "70.00",
+  "currency_code": "USD",
+  "date": "2026-09-06T19:00:00Z",
+  "created_at": "2026-09-06T19:00:00Z",
+  "updated_at": "2026-09-06T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "TV/Phone/Internet"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "70.00",
+    "owed_share": "35.00",
+    "net_balance": "35.00"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "35.00",
+    "net_balance": "-35.00"
+   }
+  ]
+ },
+ {
+  "id": 5145,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "5.44",
+  "currency_code": "USD",
+  "date": "2026-09-07T19:00:00Z",
+  "created_at": "2026-09-07T19:00:00Z",
+  "updated_at": "2026-09-07T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.44",
+    "owed_share": "5.44",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5146,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "7.19",
+  "currency_code": "USD",
+  "date": "2026-09-09T19:00:00Z",
+  "created_at": "2026-09-09T19:00:00Z",
+  "updated_at": "2026-09-09T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "7.19",
+    "owed_share": "7.19",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5147,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "4.93",
+  "currency_code": "USD",
+  "date": "2026-09-11T19:00:00Z",
+  "created_at": "2026-09-11T19:00:00Z",
+  "updated_at": "2026-09-11T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.93",
+    "owed_share": "4.93",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5148,
+  "group_id": 301,
+  "description": "Dinner at Lucia's Trattoria",
+  "payment": false,
+  "cost": "68.62",
+  "currency_code": "USD",
+  "date": "2026-09-11T19:00:00Z",
+  "created_at": "2026-09-11T19:00:00Z",
+  "updated_at": "2026-09-11T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "22.88",
+    "net_balance": "-22.88"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "68.62",
+    "owed_share": "22.87",
+    "net_balance": "45.75"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "22.87",
+    "net_balance": "-22.87"
+   }
+  ]
+ },
+ {
+  "id": 5149,
+  "group_id": 101,
+  "description": "Costco",
+  "payment": false,
+  "cost": "74.62",
+  "currency_code": "USD",
+  "date": "2026-09-13T19:00:00Z",
+  "created_at": "2026-09-13T19:00:00Z",
+  "updated_at": "2026-09-13T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "74.62",
+    "owed_share": "37.31",
+    "net_balance": "37.31"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "37.31",
+    "net_balance": "-37.31"
+   }
+  ]
+ },
+ {
+  "id": 5150,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "4.51",
+  "currency_code": "USD",
+  "date": "2026-09-14T19:00:00Z",
+  "created_at": "2026-09-14T19:00:00Z",
+  "updated_at": "2026-09-14T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.51",
+    "owed_share": "4.51",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5151,
+  "group_id": null,
+  "description": "Uber to campus",
+  "payment": false,
+  "cost": "16.22",
+  "currency_code": "USD",
+  "date": "2026-09-15T19:00:00Z",
+  "created_at": "2026-09-15T19:00:00Z",
+  "updated_at": "2026-09-15T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "16.22",
+    "owed_share": "16.22",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5152,
+  "group_id": null,
+  "description": "Waymo downtown",
+  "payment": false,
+  "cost": "18.00",
+  "currency_code": "USD",
+  "date": "2026-09-16T19:00:00Z",
+  "created_at": "2026-09-16T19:00:00Z",
+  "updated_at": "2026-09-16T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "18.00",
+    "owed_share": "18.00",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5153,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "5.24",
+  "currency_code": "USD",
+  "date": "2026-09-18T19:00:00Z",
+  "created_at": "2026-09-18T19:00:00Z",
+  "updated_at": "2026-09-18T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.24",
+    "owed_share": "5.24",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5154,
+  "group_id": 301,
+  "description": "Brunch at Sunny Side",
+  "payment": false,
+  "cost": "52.55",
+  "currency_code": "USD",
+  "date": "2026-09-18T19:00:00Z",
+  "created_at": "2026-09-18T19:00:00Z",
+  "updated_at": "2026-09-18T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "52.55",
+    "owed_share": "17.51",
+    "net_balance": "35.04"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "17.52",
+    "net_balance": "-17.52"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "17.52",
+    "net_balance": "-17.52"
+   }
+  ]
+ },
+ {
+  "id": 5155,
+  "group_id": 301,
+  "description": "Dinner at Lucia's Trattoria",
+  "payment": false,
+  "cost": "148.64",
+  "currency_code": "USD",
+  "date": "2026-09-19T19:00:00Z",
+  "created_at": "2026-09-19T19:00:00Z",
+  "updated_at": "2026-09-19T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "49.54",
+    "net_balance": "-49.54"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "148.64",
+    "owed_share": "49.55",
+    "net_balance": "99.09"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "49.55",
+    "net_balance": "-49.55"
+   }
+  ]
+ },
+ {
+  "id": 5156,
+  "group_id": 101,
+  "description": "Trader Joe's",
+  "payment": false,
+  "cost": "115.91",
+  "currency_code": "USD",
+  "date": "2026-09-20T19:00:00Z",
+  "created_at": "2026-09-20T19:00:00Z",
+  "updated_at": "2026-09-20T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "57.95",
+    "net_balance": "-57.95"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "115.91",
+    "owed_share": "57.96",
+    "net_balance": "57.95"
+   }
+  ]
+ },
+ {
+  "id": 5157,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "7.25",
+  "currency_code": "USD",
+  "date": "2026-09-21T19:00:00Z",
+  "created_at": "2026-09-21T19:00:00Z",
+  "updated_at": "2026-09-21T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "7.25",
+    "owed_share": "7.25",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5158,
+  "group_id": null,
+  "description": "Uniqlo jacket",
+  "payment": false,
+  "cost": "26.97",
+  "currency_code": "USD",
+  "date": "2026-09-21T19:00:00Z",
+  "created_at": "2026-09-21T19:00:00Z",
+  "updated_at": "2026-09-21T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "26.97",
+    "owed_share": "26.97",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5159,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "6.94",
+  "currency_code": "USD",
+  "date": "2026-09-23T19:00:00Z",
+  "created_at": "2026-09-23T19:00:00Z",
+  "updated_at": "2026-09-23T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.94",
+    "owed_share": "6.94",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5160,
+  "group_id": null,
+  "description": "Lyft home",
+  "payment": false,
+  "cost": "12.48",
+  "currency_code": "USD",
+  "date": "2026-09-23T19:00:00Z",
+  "created_at": "2026-09-23T19:00:00Z",
+  "updated_at": "2026-09-23T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "12.48",
+    "owed_share": "12.48",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5161,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "5.88",
+  "currency_code": "USD",
+  "date": "2026-09-25T19:00:00Z",
+  "created_at": "2026-09-25T19:00:00Z",
+  "updated_at": "2026-09-25T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.88",
+    "owed_share": "5.88",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5162,
+  "group_id": 301,
+  "description": "Brunch at Sunny Side",
+  "payment": false,
+  "cost": "55.25",
+  "currency_code": "USD",
+  "date": "2026-09-26T19:00:00Z",
+  "created_at": "2026-09-26T19:00:00Z",
+  "updated_at": "2026-09-26T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "55.25",
+    "owed_share": "18.41",
+    "net_balance": "36.84"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "18.42",
+    "net_balance": "-18.42"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "18.42",
+    "net_balance": "-18.42"
+   }
+  ]
+ },
+ {
+  "id": 5163,
+  "group_id": 101,
+  "description": "Costco",
+  "payment": false,
+  "cost": "138.84",
+  "currency_code": "USD",
+  "date": "2026-09-27T19:00:00Z",
+  "created_at": "2026-09-27T19:00:00Z",
+  "updated_at": "2026-09-27T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "138.84",
+    "owed_share": "69.42",
+    "net_balance": "69.42"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "69.42",
+    "net_balance": "-69.42"
+   }
+  ]
+ },
+ {
+  "id": 5164,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "7.42",
+  "currency_code": "USD",
+  "date": "2026-09-28T19:00:00Z",
+  "created_at": "2026-09-28T19:00:00Z",
+  "updated_at": "2026-09-28T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "7.42",
+    "owed_share": "7.42",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5165,
+  "group_id": null,
+  "description": "Uber to campus",
+  "payment": false,
+  "cost": "16.92",
+  "currency_code": "USD",
+  "date": "2026-09-28T19:00:00Z",
+  "created_at": "2026-09-28T19:00:00Z",
+  "updated_at": "2026-09-28T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "16.92",
+    "owed_share": "16.92",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5166,
+  "group_id": null,
+  "description": "Payment",
+  "payment": true,
+  "cost": "119.84",
+  "currency_code": "USD",
+  "date": "2026-09-28T19:00:00Z",
+  "created_at": "2026-09-28T19:00:00Z",
+  "updated_at": "2026-09-28T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "119.84",
+    "net_balance": "-119.84"
+   },
+   {
+    "user_id": 1,
+    "paid_share": "119.84",
+    "owed_share": "0.00",
+    "net_balance": "119.84"
+   }
+  ]
+ },
+ {
+  "id": 5167,
+  "group_id": 101,
+  "description": "Rent",
+  "payment": false,
+  "cost": "1450.00",
+  "currency_code": "USD",
+  "date": "2026-10-01T19:00:00Z",
+  "created_at": "2026-10-01T19:00:00Z",
+  "updated_at": "2026-10-01T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "Rent"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "725.00",
+    "net_balance": "-725.00"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "1450.00",
+    "owed_share": "725.00",
+    "net_balance": "725.00"
+   }
+  ]
+ },
+ {
+  "id": 5168,
+  "group_id": null,
+  "description": "Health insurance",
+  "payment": false,
+  "cost": "118.00",
+  "currency_code": "USD",
+  "date": "2026-10-01T19:00:00Z",
+  "created_at": "2026-10-01T19:00:00Z",
+  "updated_at": "2026-10-01T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "118.00",
+    "owed_share": "118.00",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5169,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "5.34",
+  "currency_code": "USD",
+  "date": "2026-10-02T19:00:00Z",
+  "created_at": "2026-10-02T19:00:00Z",
+  "updated_at": "2026-10-02T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.34",
+    "owed_share": "5.34",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5170,
+  "group_id": 301,
+  "description": "Sushi Hana",
+  "payment": false,
+  "cost": "73.91",
+  "currency_code": "USD",
+  "date": "2026-10-03T19:00:00Z",
+  "created_at": "2026-10-03T19:00:00Z",
+  "updated_at": "2026-10-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "73.91",
+    "owed_share": "24.63",
+    "net_balance": "49.28"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "24.64",
+    "net_balance": "-24.64"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "24.64",
+    "net_balance": "-24.64"
+   }
+  ]
+ },
+ {
+  "id": 5171,
+  "group_id": 101,
+  "description": "Netflix",
+  "payment": false,
+  "cost": "15.49",
+  "currency_code": "USD",
+  "date": "2026-10-03T19:00:00Z",
+  "created_at": "2026-10-03T19:00:00Z",
+  "updated_at": "2026-10-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "15.49",
+    "owed_share": "7.75",
+    "net_balance": "7.74"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "7.74",
+    "net_balance": "-7.74"
+   }
+  ]
+ },
+ {
+  "id": 5172,
+  "group_id": null,
+  "description": "Spotify",
+  "payment": false,
+  "cost": "11.99",
+  "currency_code": "USD",
+  "date": "2026-10-03T19:00:00Z",
+  "created_at": "2026-10-03T19:00:00Z",
+  "updated_at": "2026-10-03T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "11.99",
+    "owed_share": "11.99",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5173,
+  "group_id": 101,
+  "description": "Costco",
+  "payment": false,
+  "cost": "124.85",
+  "currency_code": "USD",
+  "date": "2026-10-04T19:00:00Z",
+  "created_at": "2026-10-04T19:00:00Z",
+  "updated_at": "2026-10-04T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "124.85",
+    "owed_share": "62.43",
+    "net_balance": "62.42"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "62.42",
+    "net_balance": "-62.42"
+   }
+  ]
+ },
+ {
+  "id": 5174,
+  "group_id": null,
+  "description": "Snacks from 7-Eleven",
+  "payment": false,
+  "cost": "4.40",
+  "currency_code": "USD",
+  "date": "2026-10-04T19:00:00Z",
+  "created_at": "2026-10-04T19:00:00Z",
+  "updated_at": "2026-10-04T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "4.40",
+    "owed_share": "4.40",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5175,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "5.08",
+  "currency_code": "USD",
+  "date": "2026-10-05T19:00:00Z",
+  "created_at": "2026-10-05T19:00:00Z",
+  "updated_at": "2026-10-05T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.08",
+    "owed_share": "5.08",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5176,
+  "group_id": null,
+  "description": "Waymo downtown",
+  "payment": false,
+  "cost": "25.46",
+  "currency_code": "USD",
+  "date": "2026-10-05T19:00:00Z",
+  "created_at": "2026-10-05T19:00:00Z",
+  "updated_at": "2026-10-05T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "25.46",
+    "owed_share": "25.46",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5177,
+  "group_id": 101,
+  "description": "Internet bill",
+  "payment": false,
+  "cost": "70.00",
+  "currency_code": "USD",
+  "date": "2026-10-06T19:00:00Z",
+  "created_at": "2026-10-06T19:00:00Z",
+  "updated_at": "2026-10-06T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "TV/Phone/Internet"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "70.00",
+    "owed_share": "35.00",
+    "net_balance": "35.00"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "35.00",
+    "net_balance": "-35.00"
+   }
+  ]
+ },
+ {
+  "id": 5178,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "5.55",
+  "currency_code": "USD",
+  "date": "2026-10-07T19:00:00Z",
+  "created_at": "2026-10-07T19:00:00Z",
+  "updated_at": "2026-10-07T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.55",
+    "owed_share": "5.55",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5179,
+  "group_id": null,
+  "description": "Lyft home",
+  "payment": false,
+  "cost": "11.69",
+  "currency_code": "USD",
+  "date": "2026-10-07T19:00:00Z",
+  "created_at": "2026-10-07T19:00:00Z",
+  "updated_at": "2026-10-07T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "11.69",
+    "owed_share": "11.69",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5180,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "5.73",
+  "currency_code": "USD",
+  "date": "2026-10-09T19:00:00Z",
+  "created_at": "2026-10-09T19:00:00Z",
+  "updated_at": "2026-10-09T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.73",
+    "owed_share": "5.73",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5181,
+  "group_id": 301,
+  "description": "Sushi Hana",
+  "payment": false,
+  "cost": "82.97",
+  "currency_code": "USD",
+  "date": "2026-10-09T19:00:00Z",
+  "created_at": "2026-10-09T19:00:00Z",
+  "updated_at": "2026-10-09T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "82.97",
+    "owed_share": "27.65",
+    "net_balance": "55.32"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "27.66",
+    "net_balance": "-27.66"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "27.66",
+    "net_balance": "-27.66"
+   }
+  ]
+ },
+ {
+  "id": 5182,
+  "group_id": null,
+  "description": "Lyft home",
+  "payment": false,
+  "cost": "19.41",
+  "currency_code": "USD",
+  "date": "2026-10-09T19:00:00Z",
+  "created_at": "2026-10-09T19:00:00Z",
+  "updated_at": "2026-10-09T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "19.41",
+    "owed_share": "19.41",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5183,
+  "group_id": 301,
+  "description": "Sushi Hana",
+  "payment": false,
+  "cost": "65.31",
+  "currency_code": "USD",
+  "date": "2026-10-10T19:00:00Z",
+  "created_at": "2026-10-10T19:00:00Z",
+  "updated_at": "2026-10-10T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "21.77",
+    "net_balance": "-21.77"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "21.77",
+    "net_balance": "-21.77"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "65.31",
+    "owed_share": "21.77",
+    "net_balance": "43.54"
+   }
+  ]
+ },
+ {
+  "id": 5184,
+  "group_id": null,
+  "description": "Uber to campus",
+  "payment": false,
+  "cost": "16.56",
+  "currency_code": "USD",
+  "date": "2026-10-10T19:00:00Z",
+  "created_at": "2026-10-10T19:00:00Z",
+  "updated_at": "2026-10-10T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "16.56",
+    "owed_share": "16.56",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5185,
+  "group_id": 101,
+  "description": "Target run",
+  "payment": false,
+  "cost": "135.55",
+  "currency_code": "USD",
+  "date": "2026-10-11T19:00:00Z",
+  "created_at": "2026-10-11T19:00:00Z",
+  "updated_at": "2026-10-11T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "67.77",
+    "net_balance": "-67.77"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "135.55",
+    "owed_share": "67.78",
+    "net_balance": "67.77"
+   }
+  ]
+ },
+ {
+  "id": 5186,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "6.43",
+  "currency_code": "USD",
+  "date": "2026-10-12T19:00:00Z",
+  "created_at": "2026-10-12T19:00:00Z",
+  "updated_at": "2026-10-12T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.43",
+    "owed_share": "6.43",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5187,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "7.15",
+  "currency_code": "USD",
+  "date": "2026-10-14T19:00:00Z",
+  "created_at": "2026-10-14T19:00:00Z",
+  "updated_at": "2026-10-14T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "7.15",
+    "owed_share": "7.15",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5188,
+  "group_id": null,
+  "description": "Phone case",
+  "payment": false,
+  "cost": "29.26",
+  "currency_code": "USD",
+  "date": "2026-10-14T19:00:00Z",
+  "created_at": "2026-10-14T19:00:00Z",
+  "updated_at": "2026-10-14T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "29.26",
+    "owed_share": "29.26",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5189,
+  "group_id": null,
+  "description": "Lyft home",
+  "payment": false,
+  "cost": "14.38",
+  "currency_code": "USD",
+  "date": "2026-10-16T19:00:00Z",
+  "created_at": "2026-10-16T19:00:00Z",
+  "updated_at": "2026-10-16T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "14.38",
+    "owed_share": "14.38",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5190,
+  "group_id": 301,
+  "description": "Brunch at Sunny Side",
+  "payment": false,
+  "cost": "132.40",
+  "currency_code": "USD",
+  "date": "2026-10-17T19:00:00Z",
+  "created_at": "2026-10-17T19:00:00Z",
+  "updated_at": "2026-10-17T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "132.40",
+    "owed_share": "44.14",
+    "net_balance": "88.26"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "44.13",
+    "net_balance": "-44.13"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "44.13",
+    "net_balance": "-44.13"
+   }
+  ]
+ },
+ {
+  "id": 5191,
+  "group_id": null,
+  "description": "Running shoes",
+  "payment": false,
+  "cost": "40.44",
+  "currency_code": "USD",
+  "date": "2026-10-17T19:00:00Z",
+  "created_at": "2026-10-17T19:00:00Z",
+  "updated_at": "2026-10-17T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "40.44",
+    "owed_share": "40.44",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5192,
+  "group_id": 101,
+  "description": "Costco",
+  "payment": false,
+  "cost": "130.90",
+  "currency_code": "USD",
+  "date": "2026-10-18T19:00:00Z",
+  "created_at": "2026-10-18T19:00:00Z",
+  "updated_at": "2026-10-18T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "130.90",
+    "owed_share": "65.45",
+    "net_balance": "65.45"
+   },
+   {
+    "user_id": 2,
+    "paid_share": "0.00",
+    "owed_share": "65.45",
+    "net_balance": "-65.45"
+   }
+  ]
+ },
+ {
+  "id": 5193,
+  "group_id": null,
+  "description": "Starbucks latte",
+  "payment": false,
+  "cost": "6.36",
+  "currency_code": "USD",
+  "date": "2026-10-19T19:00:00Z",
+  "created_at": "2026-10-19T19:00:00Z",
+  "updated_at": "2026-10-19T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.36",
+    "owed_share": "6.36",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5194,
+  "group_id": null,
+  "description": "Chips and salsa",
+  "payment": false,
+  "cost": "5.30",
+  "currency_code": "USD",
+  "date": "2026-10-20T19:00:00Z",
+  "created_at": "2026-10-20T19:00:00Z",
+  "updated_at": "2026-10-20T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "5.30",
+    "owed_share": "5.30",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5195,
+  "group_id": null,
+  "description": "Cafe cortado",
+  "payment": false,
+  "cost": "6.95",
+  "currency_code": "USD",
+  "date": "2026-10-21T19:00:00Z",
+  "created_at": "2026-10-21T19:00:00Z",
+  "updated_at": "2026-10-21T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.95",
+    "owed_share": "6.95",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5196,
+  "group_id": null,
+  "description": "Blue Bottle coffee",
+  "payment": false,
+  "cost": "6.15",
+  "currency_code": "USD",
+  "date": "2026-10-23T19:00:00Z",
+  "created_at": "2026-10-23T19:00:00Z",
+  "updated_at": "2026-10-23T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "6.15",
+    "owed_share": "6.15",
+    "net_balance": "0.00"
+   }
+  ]
+ },
+ {
+  "id": 5197,
+  "group_id": 301,
+  "description": "Taco night",
+  "payment": false,
+  "cost": "120.69",
+  "currency_code": "USD",
+  "date": "2026-10-23T19:00:00Z",
+  "created_at": "2026-10-23T19:00:00Z",
+  "updated_at": "2026-10-23T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "40.23",
+    "net_balance": "-40.23"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "120.69",
+    "owed_share": "40.23",
+    "net_balance": "80.46"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "40.23",
+    "net_balance": "-40.23"
+   }
+  ]
+ },
+ {
+  "id": 5198,
+  "group_id": 301,
+  "description": "Brunch at Sunny Side",
+  "payment": false,
+  "cost": "68.02",
+  "currency_code": "USD",
+  "date": "2026-10-24T19:00:00Z",
+  "created_at": "2026-10-24T19:00:00Z",
+  "updated_at": "2026-10-24T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "68.02",
+    "owed_share": "22.68",
+    "net_balance": "45.34"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "22.67",
+    "net_balance": "-22.67"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "22.67",
+    "net_balance": "-22.67"
+   }
+  ]
+ },
+ {
+  "id": 5199,
+  "group_id": 201,
+  "description": "Gas on Highway 1",
+  "payment": false,
+  "cost": "64.20",
+  "currency_code": "USD",
+  "date": "2026-10-09T19:00:00Z",
+  "created_at": "2026-10-09T19:00:00Z",
+  "updated_at": "2026-10-09T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "21.40",
+    "net_balance": "-21.40"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "64.20",
+    "owed_share": "21.40",
+    "net_balance": "42.80"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "21.40",
+    "net_balance": "-21.40"
+   }
+  ]
+ },
+ {
+  "id": 5200,
+  "group_id": 201,
+  "description": "Airbnb cabin",
+  "payment": false,
+  "cost": "540.00",
+  "currency_code": "USD",
+  "date": "2026-10-09T19:00:00Z",
+  "created_at": "2026-10-09T19:00:00Z",
+  "updated_at": "2026-10-09T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "540.00",
+    "owed_share": "180.00",
+    "net_balance": "360.00"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "180.00",
+    "net_balance": "-180.00"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "180.00",
+    "net_balance": "-180.00"
+   }
+  ]
+ },
+ {
+  "id": 5201,
+  "group_id": 201,
+  "description": "Dinner at Nepenthe",
+  "payment": false,
+  "cost": "186.00",
+  "currency_code": "USD",
+  "date": "2026-10-10T19:00:00Z",
+  "created_at": "2026-10-10T19:00:00Z",
+  "updated_at": "2026-10-10T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "62.00",
+    "net_balance": "-62.00"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "62.00",
+    "net_balance": "-62.00"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "186.00",
+    "owed_share": "62.00",
+    "net_balance": "124.00"
+   }
+  ]
+ },
+ {
+  "id": 5202,
+  "group_id": 201,
+  "description": "Kayak rental",
+  "payment": false,
+  "cost": "90.00",
+  "currency_code": "USD",
+  "date": "2026-10-10T19:00:00Z",
+  "created_at": "2026-10-10T19:00:00Z",
+  "updated_at": "2026-10-10T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "90.00",
+    "owed_share": "30.00",
+    "net_balance": "60.00"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "30.00",
+    "net_balance": "-30.00"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "30.00",
+    "net_balance": "-30.00"
+   }
+  ]
+ },
+ {
+  "id": 5203,
+  "group_id": 201,
+  "description": "Coffee and pastries",
+  "payment": false,
+  "cost": "27.50",
+  "currency_code": "USD",
+  "date": "2026-10-11T19:00:00Z",
+  "created_at": "2026-10-11T19:00:00Z",
+  "updated_at": "2026-10-11T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "9.16",
+    "net_balance": "-9.16"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "27.50",
+    "owed_share": "9.17",
+    "net_balance": "18.33"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "9.17",
+    "net_balance": "-9.17"
+   }
+  ]
+ },
+ {
+  "id": 5204,
+  "group_id": null,
+  "description": "Cabin deposit #tahoe2026",
+  "payment": false,
+  "cost": "300.00",
+  "currency_code": "USD",
+  "date": "2026-07-23T19:00:00Z",
+  "created_at": "2026-07-23T19:00:00Z",
+  "updated_at": "2026-07-23T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "150.00",
+    "net_balance": "-150.00"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "300.00",
+    "owed_share": "150.00",
+    "net_balance": "150.00"
+   }
+  ]
+ },
+ {
+  "id": 5205,
+  "group_id": null,
+  "description": "Groceries #tahoe2026",
+  "payment": false,
+  "cost": "84.00",
+  "currency_code": "USD",
+  "date": "2026-07-24T19:00:00Z",
+  "created_at": "2026-07-24T19:00:00Z",
+  "updated_at": "2026-07-24T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "84.00",
+    "owed_share": "42.00",
+    "net_balance": "42.00"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "42.00",
+    "net_balance": "-42.00"
+   }
+  ]
+ },
+ {
+  "id": 5206,
+  "group_id": null,
+  "description": "Bowling #tahoe2026",
+  "payment": false,
+  "cost": "48.00",
+  "currency_code": "USD",
+  "date": "2026-07-25T19:00:00Z",
+  "created_at": "2026-07-25T19:00:00Z",
+  "updated_at": "2026-07-25T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "48.00",
+    "owed_share": "24.00",
+    "net_balance": "24.00"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "0.00",
+    "owed_share": "24.00",
+    "net_balance": "-24.00"
+   }
+  ]
+ },
+ {
+  "id": 5207,
+  "group_id": 301,
+  "description": "Birthday gift for Sky",
+  "payment": false,
+  "cost": "40.00",
+  "currency_code": "USD",
+  "date": "2026-10-21T19:00:00Z",
+  "created_at": "2026-10-21T19:00:00Z",
+  "updated_at": "2026-10-21T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "40.00",
+    "net_balance": "-40.00"
+   },
+   {
+    "user_id": 1,
+    "paid_share": "40.00",
+    "owed_share": "0.00",
+    "net_balance": "40.00"
+   }
+  ]
+ },
+ {
+  "id": 5208,
+  "group_id": null,
+  "description": "Tapas in Lisbon",
+  "payment": false,
+  "cost": "36.00",
+  "currency_code": "EUR",
+  "date": "2026-10-19T19:00:00Z",
+  "created_at": "2026-10-19T19:00:00Z",
+  "updated_at": "2026-10-19T19:05:00Z",
+  "deleted_at": null,
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "0.00",
+    "owed_share": "18.00",
+    "net_balance": "-18.00"
+   },
+   {
+    "user_id": 4,
+    "paid_share": "36.00",
+    "owed_share": "18.00",
+    "net_balance": "18.00"
+   }
+  ]
+ },
+ {
+  "id": 5209,
+  "group_id": null,
+  "description": "Concert tickets",
+  "payment": false,
+  "cost": "120.00",
+  "currency_code": "USD",
+  "date": "2026-10-22T19:00:00Z",
+  "created_at": "2026-10-22T19:00:00Z",
+  "updated_at": "2026-10-22T19:05:00Z",
+  "deleted_at": "2026-10-23T19:00:00Z",
+  "category": {
+   "id": 0,
+   "name": "General"
+  },
+  "users": [
+   {
+    "user_id": 1,
+    "paid_share": "120.00",
+    "owed_share": "60.00",
+    "net_balance": "60.00"
+   },
+   {
+    "user_id": 3,
+    "paid_share": "0.00",
+    "owed_share": "60.00",
+    "net_balance": "-60.00"
+   }
+  ]
+ }
+]

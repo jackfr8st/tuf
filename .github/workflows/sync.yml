@@ -1,0 +1,121 @@
+# TUF scheduled synchronization: Splitwise -> Notion.
+#
+# Cost notes (see docs/RESEARCH.md): public repositories use standard GitHub-hosted runners
+# for free. Private repositories on GitHub Free include a monthly compute allowance (about
+# 2,000 Linux minutes); each run is billed in whole minutes. Hourly runs (~720/month) fit
+# comfortably; a 15-minute schedule (~2,900 runs/month) does NOT fit a private Free account.
+# GitHub may delay or drop scheduled runs under load; TUF recovers automatically because the
+# next run derives its window from data already in Notion.
+#
+# To change frequency, edit the cron lines below (UTC). Examples:
+#   every hour at :17     "17 * * * *"      (default)
+#   every 3 hours         "17 */3 * * *"
+#   twice a day           "17 7,19 * * *"   (good if you check Notion once or twice daily)
+name: TUF sync
+
+on:
+  schedule:
+    - cron: "17 * * * *" # incremental sync (off the top of the hour to avoid peak load)
+    - cron: "43 10 * * *" # daily full sync: reconciles deletions/removals
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "setup (first run) | incremental | full | reclassify"
+        type: choice
+        options: [incremental, full, reclassify, setup]
+        default: incremental
+      dry_run:
+        description: "Compute everything but write nothing to Notion"
+        type: boolean
+        default: false
+      since:
+        description: "Backfill expenses dated on/after YYYY-MM-DD (optional)"
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tuf-sync
+  cancel-in-progress: false # never kill a run mid-write; the next one queues
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+          python-version: "3.12"
+
+      - name: Install
+        run: uv sync --frozen --no-dev --extra ai
+
+      - name: Sync
+        env:
+          SPLITWISE_API_KEY: ${{ secrets.SPLITWISE_API_KEY }}
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_ROOT_PAGE_ID: ${{ secrets.NOTION_ROOT_PAGE_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Optional settings (Settings -> Secrets and variables -> Actions -> Variables)
+          REPORTING_CURRENCY: ${{ vars.REPORTING_CURRENCY }}
+          MONTHLY_BUDGET: ${{ vars.MONTHLY_BUDGET }}
+          TIMEZONE: ${{ vars.TIMEZONE }}
+          AI_ENABLED: ${{ vars.AI_ENABLED }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          AI_MAX_REQUESTS_PER_RUN: ${{ vars.AI_MAX_REQUESTS_PER_RUN }}
+          FX_ENABLED: ${{ vars.FX_ENABLED }}
+          BACKFILL_START: ${{ vars.BACKFILL_START }}
+          BUDGET_AMBER_PCT: ${{ vars.BUDGET_AMBER_PCT }}
+          BUDGET_RED_PCT: ${{ vars.BUDGET_RED_PCT }}
+          SYNC_OVERLAP_HOURS: ${{ vars.SYNC_OVERLAP_HOURS }}
+          TRIP_GROUP_PATTERN: ${{ vars.TRIP_GROUP_PATTERN }}
+          TRIP_AUTO_CREATE: ${{ vars.TRIP_AUTO_CREATE }}
+          SUBCATEGORY_MIN_OCCURRENCES: ${{ vars.SUBCATEGORY_MIN_OCCURRENCES }}
+          SUBCATEGORY_AUTO_APPROVE: ${{ vars.SUBCATEGORY_AUTO_APPROVE }}
+          DASHBOARD_CHARTS: ${{ vars.DASHBOARD_CHARTS }}
+          LOG_FORMAT: json
+          # Inputs are passed through env (never interpolated into the script) to avoid
+          # shell injection from workflow_dispatch values.
+          INPUT_MODE: ${{ inputs.mode }}
+          INPUT_DRY_RUN: ${{ inputs.dry_run }}
+          INPUT_SINCE: ${{ inputs.since }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          set -euo pipefail
+          cmd=(uv run --frozen --no-dev tuf)
+          mode="${INPUT_MODE:-incremental}"
+          if [ "${SCHEDULE:-}" = "43 10 * * *" ]; then mode=full; fi
+          if [ "$mode" = "setup" ]; then
+            # Creates the TUF databases + dashboard under NOTION_ROOT_PAGE_ID (idempotent)
+            # and adds the optional native views, then imports history.
+            uv run --frozen --no-dev tuf setup --views
+            mode=incremental
+          fi
+          if [ "$mode" = "reclassify" ]; then cmd+=(reclassify); else cmd+=(sync); fi
+          if [ "$mode" = "full" ]; then cmd+=(--full); fi
+          if [ "${INPUT_DRY_RUN:-false}" = "true" ]; then cmd+=(--dry-run); fi
+          if [ -n "${INPUT_SINCE:-}" ]; then
+            [[ "$INPUT_SINCE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "since must be YYYY-MM-DD"; exit 2; }
+            cmd+=(--since "$INPUT_SINCE")
+          fi
+          "${cmd[@]}" --summary-json summary.json
+
+      - name: Run summary
+        if: always()
+        run: |
+          if [ -f summary.json ]; then
+            {
+              echo '### TUF sync summary'
+              echo '```json'
+              # counts only: no descriptions or amounts are ever written to the summary
+              python3 -c "import json;d=json.load(open('summary.json'));[d.pop(k,None) for k in ('parse_errors','write_errors','warnings')];print(json.dumps(d,indent=1))"
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
